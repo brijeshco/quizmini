@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "GptGeneratedQuestion" ALTER COLUMN "option1" DROP NOT NULL,
+ALTER COLUMN "option2" DROP NOT NULL,
+ALTER COLUMN "option3" DROP NOT NULL;
